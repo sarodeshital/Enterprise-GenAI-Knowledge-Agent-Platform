@@ -1,0 +1,5 @@
+LLM Operations Guide
+For transient rate-limit responses, clients should use bounded exponential backoff.
+Teams should monitor request volume, token consumption, latency, errors and model
+availability. Prompts should avoid unnecessary context and applications should
+implement timeouts and safe fallback behavior.

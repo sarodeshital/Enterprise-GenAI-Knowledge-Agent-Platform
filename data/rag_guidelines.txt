@@ -1,0 +1,6 @@
+RAG Engineering Guidelines
+Documents should be split into meaningful chunks with metadata. Retrieval quality
+should be evaluated using retrieval and answer metrics. Hybrid retrieval can combine
+keyword and semantic signals. If retrieved context does not support an answer, the
+application should explicitly indicate that the knowledge base does not contain
+sufficient information instead of inventing facts.

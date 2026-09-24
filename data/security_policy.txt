@@ -1,0 +1,5 @@
+Enterprise Security Policy
+All enterprise AI applications must use approved identity and access controls.
+Secrets must not be committed to source control. Production secrets should be stored
+in a managed secret store. Applications should log security-relevant events without
+logging confidential payloads unnecessarily.
